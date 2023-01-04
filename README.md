@@ -57,8 +57,9 @@ The MNIST dataset will be used to experiment the performance of the above models
 
 ### IMAGES GENERATED USING AUTOENCODER 
 
-Top two rows are original images
-Bottom two rows are test reconstructed images
+The top two rows are original images
+
+The bottom two rows are test reconstructed images
 
 #### 15 Epochs
 <img width="152" alt="Screenshot 2023-01-04 at 23 26 26" src="https://user-images.githubusercontent.com/111536571/210668966-c07ba1f8-6ed6-4241-87c1-d55ad32b40c9.png">
@@ -75,8 +76,9 @@ The training was stopped after 30 epochs. The plot shows that the network’s gr
 
 ### IMAGES GENERATED USING VARIATIONAL AUTOENCODER 
 
-Top two rows are original images
-Bottom two rows are test reconstructed images
+The top two rows are original images
+
+The bottom two rows are test reconstructed images
 
 #### 10 Epochs
 <img width="156" alt="Screenshot 2023-01-04 at 23 32 20" src="https://user-images.githubusercontent.com/111536571/210669641-00e2c8ec-d87a-47d2-8660-a8ae1fa0afbe.png">
@@ -87,9 +89,11 @@ Bottom two rows are test reconstructed images
 
 
 ### IMAGES GENERATED USING CONVOLUTIONAL AUTOENCODER 
-Top two rows are original images
-Middle two rows are images reconstructed during training
-Bottom two rows are test reconstructed images 
+The top two rows are original images
+
+The middle two rows are images reconstructed during training
+
+The bottom two rows are test reconstructed images 
 
  #### 5 epochs
 <img width="154" alt="Screenshot 2023-01-04 at 23 18 42" src="https://user-images.githubusercontent.com/111536571/210668190-49064310-006c-4c3d-bba2-3e08e809c4c1.png">
