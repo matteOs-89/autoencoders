@@ -14,10 +14,15 @@ A complete Autoencoder network works by compressing its input features and passi
 Some reasons why Autoencoders are used include:
 
 •	Denoising of images;
+
 •	Dimensionality reduction;
+
 •	Data compression;
+
 •	Feature Extraction;
+
 •	Image generation; and 
+
 •	Image colourization
 
 ## Types of Autoencoders:
