@@ -99,3 +99,5 @@ Bottom two rows are test reconstructed images
 <img width="538" alt="Screenshot 2023-01-04 at 17 02 05" src="https://user-images.githubusercontent.com/111536571/210667993-4c6e7715-809b-4e0c-afbe-4019ac83b744.png">
 
 The plot shows that the Convolutional Autoencoder learned a lot quicker and with less training epochs (10) than the Autoencoder model and minimising the loss much faster, result to better reconstructed images.
+
+By Eseosa Jesuorobo
