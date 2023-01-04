@@ -24,13 +24,24 @@ Some reasons why Autoencoders are used include:
 
 •	“Vanilla” Autoencoder:  The Neural network architecture used for this model is constructed with fully connected feedforward Encoder and Decoder components where a Code layer sits between them.
 
+<img width="305" alt="Screenshot 2023-01-04 at 23 03 08" src="https://user-images.githubusercontent.com/111536571/210670271-9f33b00d-a8f6-4f19-84b6-3a9a70b098b5.png">
+
+
 •	Variational Autoencoder: The problem with the “Vanilla” Autoencoders is that the latent space that the input data is applied to, is mostly discrete (not continuous) this also makes back-propagation very difficult, this problem results in difficult interpolation between data points when trying to generate new data or images. To prevent this, a new form of Autoencoder was created called Variational Autoencoder. Variational Autoencoders are generative models, they generate new data close to their input data. The architecture of Variational Autoencoder is very similar to that of the Vanilla Autoencoder stated above, however with Variational Autoencoder the Encoder input is fed into the latent space as a distribution. The Encoder distribution is regularised during training providing continuous distribution, to ensure that its latent space has good properties making it easier for better interpolation of the data points, which helps us to generate new data. 
 
 Reparameterization trick is used as part of the Variational Autoencoder, and this allows the model to generate new data from a normal distribution. As the distribution is continuous, this makes back-propagation possible during training. This also allows the model to learn better and minimise overfitting.
 
 Another difference between Variational Autoencoders and Autoencoders is the loss function. In Variational Autoencoder, KL Divergence is added to its loss function to measure the similarities of its distributions, and during learning it aims to minimise the difference to ensure that samples taken are from the same distribution.
 
+<img width="193" alt="Screenshot 2023-01-04 at 23 09 06" src="https://user-images.githubusercontent.com/111536571/210670239-d237c714-28b6-40c4-9155-0cf0370fb5ea.png">
+
+
+
 •	Convolutional Autoencoders: The procedures used in this type of Autoencoders are like that of the other two stated above, however the structure of this model is built using convolutional neural networks for its Encoder component and transposed convolution for the Decoder. This type of Autoencoder is used for image generation and image segmentation.
+
+<img width="195" alt="Screenshot 2023-01-04 at 23 11 07" src="https://user-images.githubusercontent.com/111536571/210670193-eb95f446-1644-4cb4-b81a-6f7f1083895b.png">
+
+
 
 ## Dataset
 
